@@ -217,4 +217,11 @@ declare global {
     };
 }
 
+// types/user.ts
+
+export interface UserForNewsEmail {
+    id: string;
+    email: string;
+  }
+
 export {};
